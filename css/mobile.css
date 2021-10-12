@@ -18,31 +18,45 @@
 }
 
 .menu-button {
-    position: relative;
+    width: 30px; 
+    height: 25px;  
+    border: none;
+    padding: 0;
     display: block;
-    width: 25px;
-    height: 3px;
+    background-color: transparent;
+    font-size: 25px;
+    position: relative;
     cursor: pointer;
     z-index: 1;
     align-self: flex-end;
     margin-right: 5%;
 }
-
+  
 .menu-button:before, .menu-button:after {
-    content: "";
-    height: 4px;
-    background-color: #ffffff;
+    content:"";
+    width: 100%; 
+    height: 20%;
+    background-color: #ffffff;  
     position: absolute;
-    left: -2px;
-    right: -2px;
+    left: 0;
 }
-
+  
 .menu-button:before {
-    top: -10px;
+    top: 0;
 }
-
+  
 .menu-button:after {
-    bottom: -10px;
+    bottom: 0;
+}
+  
+.menu-button-label {
+    width: 100%;
+    height: 20%;
+    margin-top: -2.5px;  
+    background-color: #ffffff;  
+    position: absolute;
+    left: 0;
+    top: 50%;
 }
 
 .headline-block {
@@ -52,6 +66,7 @@
 .headline {
     font-size: 26px;
     line-height: 36px;
+    margin-top: 25px;
 }
 
 .trends-line {
@@ -83,6 +98,7 @@
 
 .post {
     flex-direction: column;
+    border-bottom: 2px solid #eeeeee;
 }
 
 .post-image {

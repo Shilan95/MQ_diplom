@@ -116,6 +116,7 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 125px;
 }
 
 .main-content {
@@ -346,6 +347,7 @@ body {
 
 .side-bar {
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .header-side-bar-section {
@@ -391,14 +393,9 @@ body {
 }
 
 .search-form {
-    margin-top: 50px;
-}
-
-.search-form {
     position: relative;
     height: 49px;
-    padding-right: 3%;
-    padding-left: 3%;
+    margin-top: 50px;
 }
 
 .search {
@@ -448,8 +445,7 @@ body {
 .subscribe-form {
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-right: 3%;
-    padding-left: 3%;
+    
 }
 
 .input-email-block {
@@ -739,7 +735,10 @@ body {
 
 .popup {
     position: fixed;
+    display: flex;
     display: none;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     bottom: 0;
@@ -869,8 +868,7 @@ body {
     width: 100%;
     background-color: #f4f7f6;
     border: none;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .popup-textarea:focus {
