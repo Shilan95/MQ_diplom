@@ -1,0 +1,155 @@
+.header {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.container {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.menu-list {
+    display: none;
+}
+
+.menu-button {
+    width: 30px; 
+    height: 25px;  
+    border: none;
+    padding: 0;
+    display: block;
+    background-color: transparent;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+  
+.menu-button:before, .menu-button:after {
+    content:"";
+    width: 100%; 
+    height: 20%;
+    background-color: #ffffff;  
+    position: absolute;
+    left: 0;
+}
+  
+.menu-button:before {
+    top: 0;
+}
+  
+.menu-button:after {
+    bottom: 0;
+}
+  
+.menu-button-label {
+    width: 100%;
+    height: 20%;
+    margin-top: -2.5px;  
+    background-color: #ffffff;  
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.headline {
+    font-size: 40px;
+    line-height: 55px;
+    flex-wrap: wrap;
+    margin-top: 105px;
+}
+
+.headers-project {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.trends-header-text {
+    font-size: 18px;
+}
+
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
+    .trend-wrapper {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+}
+
+.trend-wrapper {
+    width: 49.5%;
+    margin-bottom: 0.4%;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
+}
+
+.trend-list-link {
+    font-size: 14px;
+    line-height: 37px;
+}
+
+.header-trend-link {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.main-posts-content {
+    padding-right: 3%;
+    padding-left: 3%;
+ }
+
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post:not(:last-child) {
+    border-bottom: 2px solid #eeeeee;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-description-block {
+    margin-left: 0;
+}
+
+.link-post {
+    font-size: 14px;
+}
+
+.header-for-post {
+    font-size: 17px;
+}
+
+.text-post {
+    font-size: 15px;
+}
+
+.list-category-posts {
+    margin-top: 2%;
+}
+
+.shop {
+    min-width: 100%;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.shop-header-text {
+    font-size: 18px;
+}
+
+.card-product {
+    min-width: 46%;
+    margin-bottom: 10%;
+}
+
+.product-image {
+    max-width: 100%;
+}
+
+.footer {
+    width: 100%;
+}
